@@ -1,20 +1,22 @@
 # ExMusicPlayer
 [![](https://jitpack.io/v/Next5Studio/ExMusicPlayer.svg)](https://jitpack.io/#Next5Studio/ExMusicPlayer)
 ### 1、引用 ExMusicPlayer
-- 在repositories中添加下列代码
-> 	allprojects {
+> - 在repositories中添加下列代码
+
+		allprojects {
 			repositories {
-					...
-					maven { url 'https://jitpack.io' }         <--添加此代码
+				...
+				maven { url 'https://jitpack.io' }         <--添加此代码
 			}
 		}
 	 
 
-- 在dependency中添加项目依赖
-> 	dependencies {
+> - 在dependency中添加项目依赖
+
+		dependencies {
  			compile 'com.github.Next5Studio:ExMusicPlayer:v1.0.0'         <--添加此代码
 		}
-- 重构你的项目
+> - 重构你的项目
 
 
 
