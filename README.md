@@ -52,8 +52,8 @@
             }
         },100,100);
 
-#API文档
-- ###音乐播放相关
+# API文档
+- ### 音乐播放相关
 	- void createStreamFromUri(Context context, Uri uri)  通过句柄和请求Uri参数创建文件流
 		- 参数一   context   句柄
 		- 参数二   uri   请求Uri，可以是网络地址，也可以是Context中的Uri参数
@@ -109,7 +109,7 @@
 
 	- void stop()  停止播放
 
-- ###频谱相关
+- ### 频谱相关
 
 	- void setVisualizerData(@VisualizerRange int visualizerRange, boolean enbleWave, boolean enbleFFT)  设置获取通道信息的相关属性
 		- 参数一   visualizerRange   频谱数据长度
@@ -126,4 +126,4 @@
 
 	- byte[] getWaveData()  获取音频频谱通道信息
 
-###Made by 404 Not Found. on Next5Soft 
+### Made by 404 Not Found. on Next5Soft 
