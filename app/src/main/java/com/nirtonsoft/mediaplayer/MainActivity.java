@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void play(View v){
-        player.createStreamFormUrl("http://i.oppsu.cn/link/30780431.mp3");
+        player.createStreamFromUrl("http://i.oppsu.cn/link/30780431.mp3");
         mSeekBar.setMax(player.getDuration());
         player.play(true);
     }

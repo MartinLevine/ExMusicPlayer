@@ -134,7 +134,7 @@ public class ExMusicPlayer {
      * 通过网络地址创建文件流
      * @param url 网络地址
      */
-    public void createStreamFormUrl(String url){
+    public void createStreamFromUrl(String url){
         try {
             player.reset();
             player.setDataSource(url);
