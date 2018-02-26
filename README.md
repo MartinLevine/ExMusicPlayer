@@ -60,7 +60,7 @@
 		- 参数一   context   句柄
 		- 参数二   uri   请求Uri，可以是网络地址，也可以是Context中的Uri参数
 
-	- void createStreamFormUrl(String url)  通过网络地址创建文件流
+	- void createStreamFromUrl(String url)  通过网络地址创建文件流
 		- 参数一   url   网络地址
 
 	- void createStreamFromFile(String path)  通过文件路径创建文件流
